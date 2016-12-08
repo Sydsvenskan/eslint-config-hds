@@ -1,0 +1,19 @@
+{
+  "name": "@hdsydsvenskan/eslint-config-hds",
+  "version": "0.0.0",
+  "license": "UNLICENSED",
+  "description": "HD-Sydsvenskan eslint sharable config base on semistandard",
+  "author": "Pelle Wessman <pelle@kodfabrik.se> (http://kodfabrik.se/)",
+  "homepage": "https://github.com/sydsvenskan/eslint-config-hds",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/sydsvenskan/eslint-config-hds.git"
+  },
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "main": "index.js",
+  "peerDependencies": {
+    "eslint-config-semistandard": "^7.0.0"
+  }
+}
