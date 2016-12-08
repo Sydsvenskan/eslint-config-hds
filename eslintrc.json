@@ -1,6 +1,8 @@
 {
-  "extends": "semistandard",
+  "plugins": ["unicorn"],
+  "extends": ["semistandard", "plugin:unicorn/recommended"],
   "rules": {
-    "no-var": 2
+    "no-var": 2,
+    "unicorn/explicit-length-check": 0
   }
 }

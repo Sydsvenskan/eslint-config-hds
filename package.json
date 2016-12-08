@@ -14,6 +14,7 @@
   },
   "main": "index.js",
   "peerDependencies": {
-    "eslint-config-semistandard": "^7.0.0"
+    "eslint-config-semistandard": "^7.0.0",
+    "eslint-plugin-unicorn": "^1.0.0"
   }
 }
