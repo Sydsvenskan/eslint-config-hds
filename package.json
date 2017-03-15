@@ -9,10 +9,24 @@
     "type": "git",
     "url": "git://github.com/sydsvenskan/eslint-config-hds.git"
   },
+  "scripts": {
+    "test": "installed-check -e && eslint --ext .js --ext .jsx .",
+    "prepush": "npm test"
+  },
   "engines": {
     "node": ">=6.0.0"
   },
   "main": "index.js",
+  "devDependencies": {
+    "eslint": "^3.17.1",
+    "eslint-config-semistandard": "^7.0.0",
+    "eslint-config-standard": "^6.0.0",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-standard": "^2.1.1",
+    "eslint-plugin-unicorn": "^1.0.0",
+    "husky": "^0.13.2",
+    "installed-check": "^2.1.1"
+  },
   "peerDependencies": {
     "eslint-config-semistandard": "^7.0.0",
     "eslint-plugin-unicorn": "^1.0.0"
