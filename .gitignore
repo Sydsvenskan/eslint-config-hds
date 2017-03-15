@@ -2,6 +2,7 @@
 
 # We're a library, so please, no yarn.lock
 /yarn.lock
+yarn-error.log
 
 # Test things
 /coverage
