@@ -3,6 +3,7 @@
   "extends": ["semistandard", "plugin:unicorn/recommended"],
   "rules": {
     "func-style": [1, "expression", { "allowArrowFunctions": true }],
+    "no-multi-spaces": ["error", {"ignoreEOLComments": true}],
     "no-var": 2,
     "unicorn/explicit-length-check": 0
   }
