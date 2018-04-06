@@ -1,10 +1,13 @@
 {
-  "plugins": ["unicorn"],
-  "extends": ["semistandard", "plugin:unicorn/recommended"],
+  "plugins": ["unicorn", "security"],
+  "extends": ["semistandard", "plugin:unicorn/recommended", "plugin:security/recommended"],
   "rules": {
     "func-style": [1, "expression", { "allowArrowFunctions": true }],
     "no-multi-spaces": ["error", {"ignoreEOLComments": true}],
     "no-var": 2,
-    "unicorn/explicit-length-check": 0
+    "unicorn/explicit-length-check": 0,
+    "unicorn/prefer-add-event-listener": 1,
+    "unicorn/prefer-spread": 1,
+    "security/detect-object-injection": 0
   }
 }
