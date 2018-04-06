@@ -8,6 +8,7 @@
     "unicorn/explicit-length-check": 0,
     "unicorn/prefer-add-event-listener": 1,
     "unicorn/prefer-spread": 1,
-    "security/detect-object-injection": 0
+    "security/detect-object-injection": 0,
+    "security/detect-unsafe-regex": 0
   }
 }
