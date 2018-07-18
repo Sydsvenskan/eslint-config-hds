@@ -1,6 +1,16 @@
 {
-  "plugins": ["unicorn", "security"],
-  "extends": ["semistandard", "plugin:unicorn/recommended", "plugin:security/recommended"],
+  "plugins": [
+    "unicorn",
+    "security",
+    "import"
+  ],
+  "extends": [
+    "semistandard",
+    "plugin:unicorn/recommended",
+    "plugin:security/recommended",
+    "plugin:import/errors",
+    "plugin:import/warnings"]
+    ,
   "rules": {
     "func-style": [1, "expression", { "allowArrowFunctions": true }],
     "no-multi-spaces": ["error", {"ignoreEOLComments": true}],
@@ -9,6 +19,8 @@
     "unicorn/prefer-add-event-listener": 1,
     "unicorn/prefer-spread": 1,
     "security/detect-object-injection": 0,
-    "security/detect-unsafe-regex": 0
+    "security/detect-unsafe-regex": 0,
+    "import/order": 2,
+    "import/newline-after-import": 2
   }
 }
