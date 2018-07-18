@@ -20,7 +20,7 @@
     "unicorn/prefer-spread": 1,
     "security/detect-object-injection": 0,
     "security/detect-unsafe-regex": 0,
-    "import/order": 2,
+    "import/order": [2, {"newlines-between": "always"}],
     "import/newline-after-import": 2
   }
 }
