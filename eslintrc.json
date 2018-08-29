@@ -5,12 +5,14 @@
     "promise"
   ],
   "extends": [
-    "semistandard",
+    "standard",
     "plugin:unicorn/recommended",
     "plugin:security/recommended",
     "plugin:promise/recommended"
   ],
   "rules": {
+    "semi": [2, "always"],
+    "no-extra-semi": 2,
     "func-style": [1, "expression", { "allowArrowFunctions": true }],
     "no-multi-spaces": ["error", {"ignoreEOLComments": true}],
     "no-var": 2,
