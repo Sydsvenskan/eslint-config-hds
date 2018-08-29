@@ -16,6 +16,7 @@
     "func-style": [1, "expression", { "allowArrowFunctions": true }],
     "no-multi-spaces": ["error", {"ignoreEOLComments": true}],
     "no-var": 2,
+    "unicorn/catch-error-name": ["error", {"name": "err"}],
     "unicorn/explicit-length-check": 0,
     "unicorn/prefer-add-event-listener": 1,
     "unicorn/prefer-spread": 1,
