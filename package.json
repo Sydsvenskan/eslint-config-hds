@@ -1,6 +1,6 @@
 {
   "name": "@hdsydsvenskan/eslint-config-hds",
-  "version": "7.0.0-3",
+  "version": "7.0.0",
   "license": "UNLICENSED",
   "description": "HD-Sydsvenskan eslint sharable config base on semistandard",
   "author": "Pelle Wessman <pelle@kodfabrik.se> (http://kodfabrik.se/)",
