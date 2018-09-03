@@ -17,7 +17,7 @@
     "func-style": [1, "expression", { "allowArrowFunctions": true }],
     "no-multi-spaces": ["error", {"ignoreEOLComments": true}],
     "no-var": 2,
-    "object-shorthand": [1, "properties"],
+    "object-shorthand": [2, "properties"],
     "unicorn/catch-error-name": ["error", {"name": "err"}],
     "unicorn/explicit-length-check": 0,
     "unicorn/prefer-exponentiation-operator": 0,
