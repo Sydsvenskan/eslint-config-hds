@@ -18,6 +18,7 @@
     "no-var": 2,
     "unicorn/catch-error-name": ["error", {"name": "err"}],
     "unicorn/explicit-length-check": 0,
+    "unicorn/prefer-exponentiation-operator": 0,
     "unicorn/prefer-add-event-listener": 1,
     "unicorn/prefer-spread": 1,
     "security/detect-object-injection": 0,
