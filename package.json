@@ -10,11 +10,11 @@
     "url": "git://github.com/sydsvenskan/eslint-config-hds.git"
   },
   "scripts": {
-    "test": "installed-check -e -i eslint && eslint --ext .js --ext .jsx .",
+    "test": "installed-check -e -i eslint -i eslint-plugin-es && eslint --ext .js --ext .jsx .",
     "prepush": "npm test"
   },
   "engines": {
-    "node": ">=6.5.0"
+    "node": ">=6.0.0"
   },
   "main": "index.js",
   "devDependencies": {
