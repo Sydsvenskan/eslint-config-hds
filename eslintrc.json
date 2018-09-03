@@ -2,7 +2,8 @@
   "plugins": [
     "unicorn",
     "security",
-    "promise"
+    "promise",
+    "es"
   ],
   "extends": [
     "standard",
@@ -25,6 +26,7 @@
     "security/detect-unsafe-regex": 0,
     "promise/always-return": 0,
     "promise/no-callback-in-promise": 0,
-    "promise/no-nesting": 0
+    "promise/no-nesting": 0,
+    "es/no-exponential-operators": 1
   }
 }
