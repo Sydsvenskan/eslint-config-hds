@@ -23,6 +23,7 @@
     "unicorn/prefer-exponentiation-operator": 0,
     "unicorn/prefer-add-event-listener": 1,
     "unicorn/prefer-spread": 1,
+    "unicorn/prefer-node-append": 0,
     "security/detect-object-injection": 0,
     "security/detect-unsafe-regex": 0,
     "promise/always-return": 0,
