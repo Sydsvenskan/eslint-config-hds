@@ -30,6 +30,7 @@
     "promise/always-return": 0,
     "promise/no-callback-in-promise": 0,
     "promise/no-nesting": 0,
-    "es/no-exponential-operators": 1
+    "es/no-exponential-operators": 1,
+    "node/no-deprecated-api": 1
   }
 }
