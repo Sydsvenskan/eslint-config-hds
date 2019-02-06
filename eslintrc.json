@@ -14,23 +14,30 @@
   "rules": {
     "semi": [2, "always"],
     "no-extra-semi": 2,
+
     "func-style": [1, "expression", { "allowArrowFunctions": true }],
+    "no-console": 1,
     "no-multi-spaces": ["error", {"ignoreEOLComments": true}],
     "no-var": 2,
     "no-warning-comments": [1, { "terms": ["fixme"] }],
     "object-shorthand": [2, "properties"],
+
     "unicorn/catch-error-name": ["error", {"name": "err"}],
     "unicorn/explicit-length-check": 0,
     "unicorn/prefer-exponentiation-operator": 0,
     "unicorn/prefer-add-event-listener": 1,
     "unicorn/prefer-spread": 1,
     "unicorn/prefer-node-append": 0,
+
     "security/detect-object-injection": 0,
     "security/detect-unsafe-regex": 0,
+
     "promise/always-return": 0,
     "promise/no-callback-in-promise": 0,
     "promise/no-nesting": 0,
+
     "es/no-exponential-operators": 1,
+
     "node/no-deprecated-api": 1
   }
 }
