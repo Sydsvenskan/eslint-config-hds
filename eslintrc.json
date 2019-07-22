@@ -21,6 +21,7 @@
     "no-var": 2,
     "no-warning-comments": [1, { "terms": ["fixme"] }],
     "object-shorthand": [2, "properties"],
+    "quote-props": "off",
 
     "unicorn/catch-error-name": ["error", {"name": "err"}],
     "unicorn/explicit-length-check": 0,
