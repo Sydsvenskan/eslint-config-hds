@@ -42,6 +42,8 @@
 
     "es/no-exponential-operators": 1,
 
+    "import/no-deprecated": 1,
+
     "node/no-deprecated-api": 1
   }
 }
