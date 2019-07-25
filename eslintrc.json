@@ -3,13 +3,15 @@
     "unicorn",
     "security",
     "promise",
+    "jsdoc",
     "es"
   ],
   "extends": [
     "standard",
     "plugin:unicorn/recommended",
     "plugin:security/recommended",
-    "plugin:promise/recommended"
+    "plugin:promise/recommended",
+    "plugin:jsdoc/recommended"
   ],
   "rules": {
     "semi": [2, "always"],
@@ -43,6 +45,12 @@
     "es/no-exponential-operators": 1,
 
     "import/no-deprecated": 1,
+
+    "jsdoc/check-types": 0,
+    "jsdoc/no-undefined-types": 0,
+    "jsdoc/require-param-description": 0,
+    "jsdoc/require-returns-description": 0,
+    "jsdoc/valid-types": 0,
 
     "node/no-deprecated-api": 1
   }
