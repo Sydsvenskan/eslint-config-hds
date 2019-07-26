@@ -31,8 +31,8 @@
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-security": "^1.4.0",
     "eslint-plugin-standard": "^4.0.0",
-    "eslint-plugin-unicorn": "^9.1.1",
-    "husky": "^2.0.0",
+    "eslint-plugin-unicorn": "^10.0.0",
+    "husky": "^3.0.1",
     "installed-check": "^2.1.1"
   },
   "peerDependencies": {
@@ -45,6 +45,6 @@
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-security": "^1.4.0",
     "eslint-plugin-standard": "^4.0.0",
-    "eslint-plugin-unicorn": "^9.1.1"
+    "eslint-plugin-unicorn": "^10.0.0"
   }
 }
