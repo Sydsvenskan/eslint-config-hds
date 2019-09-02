@@ -1,13 +1,13 @@
 {
   "name": "@hdsydsvenskan/eslint-config-hds",
   "version": "13.0.0",
-  "license": "UNLICENSED",
-  "description": "HD-Sydsvenskan eslint sharable config base on semistandard",
-  "author": "Pelle Wessman <pelle@kodfabrik.se> (http://kodfabrik.se/)",
-  "homepage": "https://github.com/sydsvenskan/eslint-config-hds",
+  "license": "MIT",
+  "description": "HD-Sydsvenskan ESLint shareable config. Based on semistandard",
+  "author": "HD-Sydsvenskan <webtech@hdsydsvenskan.se>",
+  "homepage": "https://github.com/Sydsvenskan/eslint-config-hds",
   "repository": {
     "type": "git",
-    "url": "git://github.com/sydsvenskan/eslint-config-hds.git"
+    "url": "git://github.com/Sydsvenskan/eslint-config-hds.git"
   },
   "scripts": {
     "test": "installed-check -i eslint && eslint --ext .js --ext .jsx ."
