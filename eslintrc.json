@@ -25,6 +25,7 @@
     "no-warning-comments": [1, { "terms": ["fixme"] }],
     "object-shorthand": [2, "properties"],
     "quote-props": [2, "as-needed", { "keywords": true, "numbers": true, "unnecessary": false }],
+    "quotes": ["error", "single", { "avoidEscape": true, "allowTemplateLiterals": true }],
     "require-atomic-updates": 2,
 
     "unicorn/catch-error-name": ["error", {"name": "err"}],
