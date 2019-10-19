@@ -4,14 +4,16 @@
     "security",
     "promise",
     "jsdoc",
-    "es"
+    "es",
+    "mocha"
   ],
   "extends": [
     "standard",
     "plugin:unicorn/recommended",
     "plugin:security/recommended",
     "plugin:promise/recommended",
-    "plugin:jsdoc/recommended"
+    "plugin:jsdoc/recommended",
+    "plugin:mocha/recommended"
   ],
   "rules": {
     "semi": [2, "always"],
@@ -53,6 +55,8 @@
     "jsdoc/require-param-description": 0,
     "jsdoc/require-returns-description": 0,
     "jsdoc/valid-types": 0,
+
+    "mocha/no-mocha-arrows": 0,
 
     "node/no-deprecated-api": 1
   }
