@@ -31,11 +31,12 @@
     "require-atomic-updates": 2,
 
     "unicorn/catch-error-name": ["error", {"name": "err"}],
+    "unicorn/consistent-function-scoping": 0,
     "unicorn/explicit-length-check": 0,
-    "unicorn/prefer-exponentiation-operator": 0,
     "unicorn/prefer-add-event-listener": 1,
-    "unicorn/prefer-spread": 1,
+    "unicorn/prefer-exponentiation-operator": 0,
     "unicorn/prefer-node-append": 0,
+    "unicorn/prefer-spread": 1,
     "unicorn/prevent-abbreviations": 0,
 
     "security/detect-object-injection": 0,
