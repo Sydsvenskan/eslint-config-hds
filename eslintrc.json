@@ -15,6 +15,11 @@
     "plugin:jsdoc/recommended",
     "plugin:mocha/recommended"
   ],
+  "settings": {
+    "jsdoc": {
+      "mode": "typescript"
+    }
+  },
   "rules": {
     "semi": [2, "always"],
     "no-extra-semi": 2,
