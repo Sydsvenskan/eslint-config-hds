@@ -35,6 +35,7 @@
     "quote-props": [2, "as-needed", { "keywords": true, "numbers": true, "unnecessary": false }],
     "quotes": ["error", "single", { "avoidEscape": true, "allowTemplateLiterals": true }],
     "require-atomic-updates": 2,
+    "comma-dangle": ["error", "always-multiline"],
 
     "unicorn/catch-error-name": ["error", {"name": "err"}],
     "unicorn/consistent-function-scoping": 0,
