@@ -15,6 +15,9 @@
     "plugin:jsdoc/recommended",
     "plugin:mocha/recommended"
   ],
+  "parserOptions": {
+    "ecmaVersion": 11
+  },
   "settings": {
     "jsdoc": {
       "mode": "typescript"
@@ -48,7 +51,9 @@
     "unicorn/explicit-length-check": 0,
     "unicorn/prefer-add-event-listener": 1,
     "unicorn/prefer-exponentiation-operator": 0,
+    "unicorn/prefer-modern-dom-apis": 1,
     "unicorn/prefer-node-append": 0,
+    "unicorn/prefer-replace-all": 1,
     "unicorn/prefer-spread": 1,
     "unicorn/prevent-abbreviations": 0,
     "unicorn/regex-shorthand": 0,
