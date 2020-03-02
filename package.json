@@ -39,14 +39,14 @@
   "peerDependencies": {
     "eslint": "^6.7.1",
     "eslint-config-standard": "^14.1.0",
-    "eslint-plugin-es": "^2.0.0 || ^3.0.0",
+    "eslint-plugin-es": "^3.0.0",
     "eslint-plugin-import": "^2.18.2",
-    "eslint-plugin-jsdoc": "^18.1.5 || ^21.0.0",
+    "eslint-plugin-jsdoc": "^21.0.0",
     "eslint-plugin-mocha": "^6.2.2",
     "eslint-plugin-node": "^10.0.0",
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-security": "^1.4.0",
     "eslint-plugin-standard": "^4.0.0",
-    "eslint-plugin-unicorn": "^14.0.0 || ^16.0.0"
+    "eslint-plugin-unicorn": "^16.0.0"
   }
 }
