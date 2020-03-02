@@ -42,7 +42,10 @@
 
     "unicorn/catch-error-name": ["error", {"name": "err"}],
     "unicorn/consistent-function-scoping": 0,
-    "unicorn/expiring-todo-comments": [1, { "ignoreDatesOnPullRequests": true }],
+    "unicorn/expiring-todo-comments": [1, {
+      "allowWarningComments": true,
+      "ignoreDatesOnPullRequests": true
+    }],
     "unicorn/explicit-length-check": 0,
     "unicorn/prefer-add-event-listener": 1,
     "unicorn/prefer-modern-dom-apis": 1,
@@ -68,6 +71,7 @@
     "jsdoc/no-undefined-types": 0,
     "jsdoc/require-jsdoc": 0,
     "jsdoc/require-param-description": 0,
+    "jsdoc/require-property-description": 0,
     "jsdoc/require-returns-description": 0,
     "jsdoc/valid-types": 0,
 
