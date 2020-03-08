@@ -35,7 +35,7 @@
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-security": "^1.4.0",
     "eslint-plugin-standard": "^4.0.0",
-    "eslint-plugin-unicorn": "^16.0.0",
+    "eslint-plugin-unicorn": "^17.0.0",
     "husky": "^4.2.3",
     "installed-check": "^3.0.0"
   },
@@ -50,6 +50,6 @@
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-security": "^1.4.0",
     "eslint-plugin-standard": "^4.0.0",
-    "eslint-plugin-unicorn": "^16.0.0"
+    "eslint-plugin-unicorn": "^16.0.0 || ^17.0.0"
   }
 }
