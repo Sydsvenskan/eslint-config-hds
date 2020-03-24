@@ -41,7 +41,7 @@
     "quotes": [2, "single", { "avoidEscape": true, "allowTemplateLiterals": true }],
     "require-atomic-updates": 2,
 
-    "unicorn/catch-error-name": ["error", {"name": "err"}],
+    "unicorn/catch-error-name": [2, {"name": "err"}],
     "unicorn/consistent-function-scoping": 0,
     "unicorn/expiring-todo-comments": [1, {
       "allowWarningComments": true,
