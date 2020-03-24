@@ -27,7 +27,13 @@
     "semi": [2, "always"],
     "no-extra-semi": 2,
 
-    "comma-dangle": 0,
+    "comma-dangle": [1, {
+      "arrays": "ignore",
+      "objects": "ignore",
+      "imports": "ignore",
+      "exports": "ignore",
+      "functions": "never"
+    }],
     "func-style": [1, "expression", { "allowArrowFunctions": true }],
     "jsx-quotes": 0,
     "no-console": 1,
