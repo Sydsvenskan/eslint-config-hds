@@ -38,7 +38,6 @@
     "jsx-quotes": 0,
     "no-console": 1,
     "no-multi-spaces": [2, {"ignoreEOLComments": true}],
-    "no-plusplus": [1, { "allowForLoopAfterthoughts": true }],
     "no-unused-vars": [2, {"args": "after-used", "ignoreRestSiblings": true}],
     "no-var": 2,
     "no-warning-comments": [1, { "terms": ["fixme"] }],
