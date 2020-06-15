@@ -2,18 +2,16 @@
 
 *Another mostly reasonable approach to JavaScript*
 
-<!--
-[![Build Status](https://travis-ci.com/Sydsvenskan/eslint-config-hds.svg?branch=master)](https://travis-ci.com/Sydsvenskan/eslint-config-hds)
-[![dependencies Status](https://david-dm.org/@hdsydsvenskan/eslint-config-hds/status.svg)](https://david-dm.org/Sydsvenskan/eslint-config-hds)
+<!--[![dependencies Status](https://david-dm.org/@hdsydsvenskan/eslint-config-hds/status.svg)](https://david-dm.org/Sydsvenskan/eslint-config-hds)
+[![Build Status](https://travis-ci.com/Sydsvenskan/eslint-config-hds.svg?branch=master)](https://travis-ci.com/Sydsvenskan/eslint-config-hds)-->
 [![Downloads](https://img.shields.io/npm/dm/@hdsydsvenskan/eslint-config-hds.svg)](https://www.npmjs.com/package/@hdsydsvenskan/eslint-config-hds)
 [![js-semistandard-style](https://img.shields.io/badge/code%20style-semistandard-brightgreen.svg?style=flat)](https://github.com/Flet/semistandard)
--->
 
 ## License
 
 (The MIT License)
 
-Copyright (c) 2019 Bonnier News AB
+Copyright (c) 2020 Bonnier News AB
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the
