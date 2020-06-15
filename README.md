@@ -7,6 +7,20 @@
 [![Downloads](https://img.shields.io/npm/dm/@hdsydsvenskan/eslint-config-hds.svg)](https://www.npmjs.com/package/@hdsydsvenskan/eslint-config-hds)
 [![js-semistandard-style](https://img.shields.io/badge/code%20style-semistandard-brightgreen.svg?style=flat)](https://github.com/Flet/semistandard)
 
+Node.js focused config, built on top of Standard JS and our shared config [eslint-config-hds-core](https://github.com/Sydsvenskan/eslint-config-hds-core).
+
+## Installation
+
+Be sure to install versions of peer dependencies that are valid according to the peer dependency specification of this module.
+
+As ESLint configs and dependencies can and will change their rules with major releases you will likely get an incorrect ruleset otherwise.
+
+To easily install all correct peer dependencies, you can use [`install-peerdeps`](https://www.npmjs.com/package/install-peerdeps):
+
+```bash
+install-peerdeps @hdsydsvenskan/eslint-config-hds
+```
+
 ## License
 
 (The MIT License)
